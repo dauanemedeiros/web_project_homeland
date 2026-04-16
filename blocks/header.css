@@ -1,0 +1,43 @@
+.header {
+  width: 984;
+  height: 983;
+  top: 194px;
+  left: 148px;
+  angle: 0 deg;
+  opacity: 1;
+}
+
+.header__title {
+  width: 720;
+  height: 200;
+  top: 194px;
+  left: 280px;
+  angle: 0 deg;
+  opacity: 1;
+  font-family: Inter;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.header__subtitle {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.header__image {
+  width: 984;
+  height: 615;
+  top: 562px;
+  left: 148px;
+  angle: 0 deg;
+  opacity: 1;
+}
