@@ -1,4 +1,8 @@
 .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   width: 830;
   height: 482;
   top: 1269px;
