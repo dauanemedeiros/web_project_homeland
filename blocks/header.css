@@ -7,6 +7,14 @@
   opacity: 1;
 }
 
+.header__logo {
+  width: 32;
+  height: 32;
+  left: 111px;
+  angle: 0 deg;
+  opacity: 1;
+}
+
 .header__title {
   width: 720;
   height: 200;
@@ -34,8 +42,10 @@
 }
 
 .header__image {
-  width: 984;
-  height: 615;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   top: 562px;
   left: 148px;
   angle: 0 deg;

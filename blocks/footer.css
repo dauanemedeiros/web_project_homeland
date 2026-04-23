@@ -1,12 +1,7 @@
 .footer {
-}
-
-.footer__text {
-  width: 166;
-  height: 16;
-  top: 1843px;
-  left: 556px;
-  angle: 0 deg;
-  opacity: 1;
-  color: #ffffff;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.14;
+  margin-bottom: 24px;
 }
