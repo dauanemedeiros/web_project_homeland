@@ -7,14 +7,6 @@
   opacity: 1;
 }
 
-.header__logo {
-  width: 32;
-  height: 32;
-  left: 111px;
-  angle: 0 deg;
-  opacity: 1;
-}
-
 .header__title {
   width: 720;
   height: 200;
