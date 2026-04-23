@@ -7,3 +7,35 @@
   color: #ffffff;
   background-color: #2a2c2f;
 }
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 90%;
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 95%;
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    padding: 0 5px;
+  }
+}
