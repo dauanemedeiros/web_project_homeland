@@ -1,11 +1,11 @@
-.intro {
+.content {
   display: flex;
   flex-direction: column;
   max-width: 830px;
   padding: 0 148px;
 }
 
-.intro__title {
+.content__title {
   font-weight: 900;
   font-size: 54px;
   line-height: 1;
@@ -13,7 +13,7 @@
   margin-bottom: 40px;
 }
 
-.intro__subtitle {
+.content__subtitle {
   font-weight: 400;
   font-size: 24px;
   line-height: 1.5;
@@ -21,16 +21,23 @@
   margin-bottom: 32px;
 }
 
-.intro__autor {
+.content__autor {
   display: flex;
   justify-content: flex-end;
   padding-top: 10px;
 }
 
-.intro__text {
+.content__text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   max-width: 722px;
   margin-bottom: 92px;
+}
+
+.content__image {
+  display: flex;
+  justify-content: center;
+  width: 1184;
+  height: 442;
 }
