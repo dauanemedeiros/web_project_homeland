@@ -1,24 +1,20 @@
 .intro {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 80px;
-  padding: 0 44px;
-  font-family: "Inter", Arial, sans-serif;
+  padding: 40px;
+  color: white;
 }
 
 .intro__card {
   display: grid;
-  grid-template-columns: 1fr 1.2fr;
+  grid-template-columns: 460px 1fr;
   grid-template-areas:
     "title artists"
     "image text"
-    "image button";
-  gap: 30px;
-  padding: 40px;
+    "button text";
+  gap: 48px 40px;
+  margin-bottom: 80px;
   color: white;
-  max-width: 1000px;
-  align-items: start;
 }
+
 .intro__title {
   grid-area: title;
   font-size: 56px;
@@ -29,7 +25,7 @@
 .intro__image {
   grid-area: image;
   width: 100%;
-  height: auto;
+  object-fit: cover;
   border-radius: 4px;
 }
 .intro__card-artista {
@@ -75,6 +71,8 @@
   padding: 12px 24px;
   text-align: center;
   cursor: pointer;
+  height: 48px;
+  box-sizing: border-box;
 }
 
 .intro__bottom-p {
