@@ -1,0 +1,15 @@
+.images__grade {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 16px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 24px;
+  padding-top: 118px;
+  padding-bottom: 92px;
+}
+
+.images__individual {
+  max-width: 100%;
+}
