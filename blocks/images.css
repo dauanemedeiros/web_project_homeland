@@ -13,3 +13,32 @@
 .images__individual {
   max-width: 100%;
 }
+
+@media screen and (max-width: 769px) {
+  .imagens__grade {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding-top: 68px;
+    padding-bottom: 88px;
+  }
+  .imagens__individual {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .imagens__grade {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 38px;
+    padding-bottom: 62px;
+    align-items: center;
+  }
+  .imagens__individual {
+    width: 95%;
+  }
+}
