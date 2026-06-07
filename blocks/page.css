@@ -1,36 +1,37 @@
 .page {
+  display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
   font-family: "Inter", Arial, sans-serif;
   color: #ffffff;
   background-color: #2a2c2f;
-  max-width: 1280px;
+  width: 100%;
 }
 
 @media screen and (max-width: 1024px) {
-  .container {
+  .page {
     width: 90%;
     padding: 0 20px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .container {
+  .page {
     width: 95%;
     padding: 0 15px;
   }
 }
 
 @media screen and (max-width: 544px) {
-  .container {
+  .page {
     width: 100%;
     padding: 0 10px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .container {
+  .page {
     padding: 0 5px;
   }
 }
